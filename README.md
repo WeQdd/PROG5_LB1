@@ -5,7 +5,7 @@
 2. **Создать файл activation_script.py, который содержит в себе функции url_hook, классы URLLoader и URLFinder из конспекта.**
    ![activation_script.py](https://github.com/user-attachments/assets/f18e5df6-47fd-4ca1-b689-0d741ddcc56b)
 
-3. **Запустим http сервер для удаленного импорта. Для этого пропишем *python -m http.server* в директории c файлом myremotemodule.py**
+3. **Запустим http сервер для удаленного импорта. Для этого пропишем *python -m http.server* в директории, где хранится файл myremotemodule.py**
    ![Консоль](https://github.com/user-attachments/assets/80aba734-33f7-41dc-aad9-b650c6e14430)
 
 4. **Теперь запустим интерактивное представление файла *activation_script.py* - *python -i activation_script.py* и получим вывод функции *myfoo* из файла myremotemodule.py**
